@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="container">
+        <div class="image" margin="0">
+          <img
+            draggable="false"
+            class="style-scope yt-img-shadow"
+            alt=""
+            width="40"
+            src="2614.jpg"
+          />
+        </div>
+        <div class="text">
+          <p class="p">ZAHIYA'S WORLD&#10003;</p>
+          <p class="p1">1M subscribers</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<div class="button">
+    <button class="join">JOIN</button>
+    <button class="sub">SUBSCRIBE</button>
+</div>
+
+<style>
+  .button{
+    display: grid;
+    align-items: right;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0;
+    width: 0%;
+    }
+  .image {
+    width: 0%;
+    margin-left: 25px;
+  }
+  .image:hover{
+    cursor: pointer;
+  }
+  .container {
+    display: grid;
+    align-items: right;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0;
+    width: 0%;
+  }
+
+  img {
+    border-radius: 80%;
+    margin-left: -10px;
+  }
+
+  .p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    height: 22px;
+    max-width: 100%;
+    text-size-adjust: 100%;
+    z-index: 300;
+    margin-left: 6px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    width: 0px;
+  }
+  
+  .image:hover{
+    cursor: pointer;
+    opacity: 0.4;
+  }
+  .p1 {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(170, 170, 170);
+    display: -webkit-box;
+    height: 18px;
+    max-height: 18px;
+    text-overflow: ellipsis;
+    text-size-adjust: 100%;
+    white-space: normal;
+    width: 95.9844px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1px;
+    margin-right: 4px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .join {
+    background-color: white;
+    color: rgb(107, 188, 226);
+    border-color: rgb(107, 188, 226);
+    border-radius: 5px;
+    height: 36px;
+    width: 62px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .join:hover {
+    background-color: rgb(107, 188, 226);
+    color: white;
+  }
+  .join:active {
+    opacity: 0.5;
+  }
+  .sub {
+    background-color: rgb(202, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding-left: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 17px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .sub:hover {
+    opacity: 0.5;
+  }
+
+  .sub:active {
+    opacity: 0.3;
+  }
+</style>
